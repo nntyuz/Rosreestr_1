@@ -1,0 +1,21 @@
+{
+  "name": "parcel-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.pug",
+    "build": "parcel build src/index.pug --no-optimize --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.0.0",
+    "@parcel/transformer-sass": "^2.0.0",
+    "cssnano": "^5.0.8",
+    "parcel": "^2.0.0",
+    "postcss": "^8.3.11",
+    "pug": "^3.0.2",
+    "sass": "^1.43.3"
+  }
+}
