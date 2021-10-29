@@ -1,0 +1,130 @@
+.header {
+  position: absolute;
+  z-index: 2;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  background: rgba(20, 20, 20, 0.5);
+  backdrop-filter: blur(13px);
+  width: 100%;
+}
+.header-container {
+  align-items: center;
+  justify-content: space-between;
+}
+.burger {
+  display: none;
+  @media (max-width: 960px) {
+    display: block;
+    cursor: pointer;
+    .burger svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  @media (max-width: 375px) {
+    .burger svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+.logo {
+  align-items: center;
+}
+.slogan {
+  margin-left: 50px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+  color: white;
+  @media (max-width: 1440px) {
+    display: none;
+  }
+}
+.header-place {
+  align-items: center;
+  @media (max-width: 960px) {
+    display: none;
+  }
+}
+.header-place-txt {
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+  margin-left: 20px;
+}
+.header-phone {
+  align-items: center;
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  &:active {
+    opacity: 0.8;
+  }
+  @media (max-width: 960px) {
+    display: none;
+  }
+}
+.phone-tablet {
+  display: none;
+  @media (max-width: 960px) {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 255, 255, 0) 72.4%,
+      #ffffff 100%
+    );
+    border-radius: 100%;
+    .phone-tablet svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  @media (max-width: 375px) {
+    width: 40px;
+    height: 40px;
+    .phone-tablet svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+.phone {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  margin-left: 20px;
+}
+.header-button {
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 69px;
+  background: transparent;
+  border: 2px solid #f8b043;
+  color: #f8b043;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  &:hover {
+    border-color: #ffaa28;
+    color: #ffaa28;
+  }
+  &:active {
+    opacity: 0.8;
+  }
+  @media (max-width: 1440px) {
+    width: 187px;
+    font-size: 14px;
+  }
+  @media (max-width: 960px) {
+    display: none;
+  }
+}

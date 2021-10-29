@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Росреестр
+        link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap' rel='stylesheet')
+        link(rel="stylesheet" href="./main.scss")
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css")
+
+
+    body
+        include ./pug/header
+        main
+          include ./pug/hero
+          include ./pug/why
+          include ./pug/help
+          include ./pug/advantages
+          include ./pug/offer-1
+          include ./pug/cards
+          include ./pug/risk
+          include ./pug/guarant
+          include ./pug/offer-2
+          include ./pug/comment
+          include ./pug/result
+          include ./pug/owners
+          include ./pug/company
+          include ./pug/offer-3
+          include ./pug/map
+
+        include ./pug/footer
+        script(type='module' src='./main.js')
+        script(src="https://unpkg.com/swiper@7/swiper-bundle.min.js")

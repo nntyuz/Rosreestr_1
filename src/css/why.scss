@@ -1,0 +1,145 @@
+.why {
+  background-color: #fafafa;
+  padding-top: 160px;
+  padding-bottom: 130px;
+  @media (max-width: 1440px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  @media (max-width: 375px) {
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.usual-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 80px;
+  color: #505050;
+  margin: 0;
+  text-transform: uppercase;
+  @media (max-width: 1440px) {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  @media (max-width: 768px) {
+    font-size: 30px;
+    line-height: 46px;
+  }
+  @media (max-width: 375px) {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  span {
+    color: #f8b043;
+  }
+}
+.usual-par {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 30px;
+  color: #555555;
+  margin-top: 50px;
+  padding-left: 45px;
+  border-left: 3px solid #f8b043;
+  @media (max-width: 1440px) {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  @media (max-width: 768px) {
+    font-size: 16px;
+    br {
+      display: none;
+    }
+  }
+  @media (max-width: 960px) {
+    padding-left: 20px;
+    br {
+      display: none;
+    }
+  }
+  @media (max-width: 375px) {
+    font-size: 14px;
+    line-height: 18px;
+    border: none;
+    padding-left: 0;
+    margin-top: 20px;
+    br {
+      display: none;
+    }
+  }
+}
+.why-icons-container {
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 106px;
+  @media (max-width: 960px) {
+    margin-top: 60px;
+    align-items: normal;
+  }
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 375px) {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 1440px) {
+  .why-icons svg {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 960px) {
+  .why-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    max-width: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .why-icons {
+    flex-shrink: 0;
+    margin-right: 50px;
+  }
+}
+@media (max-width: 375px) {
+  .why-icons {
+    flex-direction: row;
+    max-width: none;
+    margin-bottom: 30px;
+  }
+  .why-icons svg {
+    flex-shrink: 0;
+  }
+}
+.why-icons-txt {
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 30px;
+  color: #585858;
+  @media (max-width: 1440px) {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 20px;
+  }
+  @media (max-width: 960px) {
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+  }
+  @media (max-width: 375px) {
+    text-align: left;
+    margin-left: 20px;
+    br {
+      display: none;
+    }
+  }
+}

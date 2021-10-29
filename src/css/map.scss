@@ -1,0 +1,105 @@
+.map-container {
+  background-image: url(../img/map.png);
+  padding-top: 262px;
+  padding-bottom: 262px;
+  padding-left: 200px;
+  background-size: cover;
+  @media (max-width: 960px) {
+    position: relative;
+    padding: 0;
+    height: 773px;
+    width: auto;
+  }
+}
+.map-contacts {
+  background-color: #ffffff;
+  border: 1px solid #f8b043;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  @media (max-width: 960px) {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  @media (max-width: 375px) {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+.map-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  color: #505050;
+  padding-left: 50px;
+  @media (max-width: 375px) {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+}
+.map-contacts-container {
+  padding-top: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  color: #555555;
+  @media (max-width: 375px) {
+    flex-direction: column;
+    align-items: normal;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: normal;
+  }
+}
+.map-phone {
+  align-items: center;
+  margin-right: 40px;
+  color: #555555;
+  @media (max-width: 375px) {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+  }
+}
+.map-phone svg {
+  margin-right: 20px;
+}
+.map-email {
+  align-items: center;
+}
+.map-email svg {
+  margin-right: 20px;
+}
+.map-adress {
+  padding-left: 50px;
+  padding-top: 35px;
+  align-items: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  color: #555555;
+  @media (max-width: 768px) {
+    padding-top: 30px;
+    padding-right: 60px;
+    line-height: 25px;
+  }
+  @media (max-width: 375px) {
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+  }
+}
+.map-adress svg {
+  margin-right: 20px;
+}

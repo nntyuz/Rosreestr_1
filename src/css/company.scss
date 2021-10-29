@@ -1,0 +1,39 @@
+.company {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  @media (max-width: 375px) {
+    padding-top: 0;
+  }
+}
+.company-container {
+  margin-top: 30px;
+  align-items: center;
+  width: 100%;
+}
+.swiper-slide {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 320px !important;
+}
+.company-arrow-container {
+  margin-top: 46px;
+}
+.company-arrow {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f8b043;
+  background: transparent;
+  border-radius: 7px;
+  margin-right: 20px;
+  &:last-child {
+    margin-right: 0;
+    transform: rotate(180deg);
+  }
+  &:active {
+    background: #f4f4f4;
+  }
+}
